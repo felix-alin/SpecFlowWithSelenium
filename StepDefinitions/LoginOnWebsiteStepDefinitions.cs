@@ -26,7 +26,7 @@ namespace IDNAutomaticTesting.StepDefinitions
         [Given(@"I have navigated to the website")]
         public void GivenIHaveNavigatedToTheWebsite()
         {
-            driver.Navigate().GoToUrl("https://partner4072.identitynow-demo.com/");
+            driver.Navigate().GoToUrl("yourIdentityNowPage");
         }
 
         [When(@"I input my username and password")]
@@ -58,7 +58,7 @@ namespace IDNAutomaticTesting.StepDefinitions
         public void GivenIAmLoggedInOnTheWebsite()
         {
             Thread.Sleep(4000);
-            driver.Navigate().GoToUrl("https://partner4072.identitynow-demo.com/");
+            driver.Navigate().GoToUrl("yourIdentityNowPage");
             driver.FindElement(By.Id("username")).SendKeys("inputUsername");
             driver.FindElement(By.Id("password")).SendKeys("inputPassword");
             driver.FindElement(By.ClassName("btn-label")).Click();
@@ -91,7 +91,7 @@ namespace IDNAutomaticTesting.StepDefinitions
         {
             var Wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
-            driver.Navigate().GoToUrl("https://partner4072.identitynow-demo.com/");
+            driver.Navigate().GoToUrl("yourIdentityNowPage");
             driver.FindElement(By.Id("username")).SendKeys("inputUsername");
             driver.FindElement(By.Id("password")).SendKeys("inputPassword");
             driver.FindElement(By.ClassName("btn-label")).Click();
@@ -142,7 +142,7 @@ namespace IDNAutomaticTesting.StepDefinitions
         {
 
             Thread.Sleep(1000);
-            driver.Navigate().GoToUrl("https://partner4072.identitynow-demo.com/");
+            driver.Navigate().GoToUrl("yourIdentityNowPage");
             driver.FindElement(By.Id("username")).SendKeys("inputUsername2");
             driver.FindElement(By.Id("password")).SendKeys("inputPassword2");
             driver.FindElement(By.ClassName("btn-label")).Click();
@@ -196,7 +196,7 @@ namespace IDNAutomaticTesting.StepDefinitions
         public void GivenAdminIsLoggedIn()
         {
 
-            driver.Navigate().GoToUrl("https://partner4072.identitynow-demo.com/");
+            driver.Navigate().GoToUrl("yourIdentityNowPage");
             driver.FindElement(By.Id("username")).SendKeys("inputUsername3");
             driver.FindElement(By.Id("password")).SendKeys("inputPassword3");
             driver.FindElement(By.ClassName("btn-label")).Click();
