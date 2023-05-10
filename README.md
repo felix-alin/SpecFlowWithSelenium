@@ -6,9 +6,12 @@ This is a good guide for the starting steps: https://www.softwaretestinghelp.com
 
 Good sources for inspiration:
 
-Reference for a first project
+Getting started with SpecFlow:
+  - https://docs.specflow.org/projects/getting-started/en/latest/
+  - https://www.softwaretestinghelp.com/specflow-tutorial/
+
+Reference for a first project besides this repository
   - https://github.com/executeautomation/SeleniumWithSpecflow/blob/master/SpecflowParallelTest/Steps/LoginSteps.cs
-  
   
 Some documentation for Selenium:
   - https://www.selenium.dev/selenium/docs/api/dotnet/html/N_OpenQA_Selenium.htm
@@ -18,3 +21,6 @@ Some documentation for SpecFlow:
   
 Example projects for SpecFlow:
   - https://docs.specflow.org/en/latest/Examples.html
+
+Youtube resources:
+  - Creating reports using LivingDoc: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/
